@@ -2,6 +2,9 @@
 This is a personal repository that contains notes and codes samples taken in online courses about Python Programming Languages. All these courses are, ina common way, similar teaching how Python works. So I decided to push all my codes and notes in a single repository. 
 
 ## About Python Programming Languages
+
+![python logo](python_logo.png "Python Logo")
+
 Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
 
 Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.
