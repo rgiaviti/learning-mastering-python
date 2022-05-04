@@ -1,5 +1,5 @@
 # Mastering Python
-This is a personal repository that contains notes and codes samples taken in online courses about Python Programming Languages. All these courses are, ina common way, similar teaching how Python works. So I decided to push all my codes and notes in a single repository. 
+This is a personal repository that contains notes and codes samples taken in online courses about Python Programming Language. All these courses are, in a common way, similar. So I decided to push all my codes and notes in this single repository. 
 
 ## About Python Programming Languages
 

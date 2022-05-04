@@ -71,6 +71,9 @@ name = "Joe"
 # multi assignment
 country, city, year = "Brazil", "São José do Rio Preto", 2022
 
+# same value in many vars
+player1, player2, player3 = "Raphael Veiga"
+
 # output
 print(name, age)
 print("The player name is ", name, " and his age is ", age)
