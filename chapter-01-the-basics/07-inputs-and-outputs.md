@@ -10,6 +10,22 @@ An example of its use is given below.
 
 ```python
 print("Hey! Hello from Python")
+print("You name is", "Joe")
+print(1,3,5,7,8, sep="*", end="&")
+```
+
+### Formatting
+
+```python
+x = 10
+y = 20
+print("The value of x is {} and the value of y is {}".format(x, y))
+```
+
+Another example
+
+```python
+print("Hi {name}, {greet}".format(greet="Welcome", name="Ricardo"))
 ```
 
 ## Input

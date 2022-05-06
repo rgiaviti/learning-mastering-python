@@ -13,5 +13,11 @@ myNum=123.345   # floating point
 myNum=3+4j      # complex
 ```
 
+```python
+x = 5 + 6
+y = 4.3 - 4
+z = 5 + 5j
+```
+
 ## References
 - https://www.pythonforbeginners.com/basics/python-literals

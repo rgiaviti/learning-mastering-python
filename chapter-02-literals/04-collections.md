@@ -8,13 +8,18 @@ There are four different types of literal collections
 
 ## List Literals
 
-List contains items of different data types. The values stored in List are separated by comma (,) and enclosed within square brackets([]). We can store different types of data in a List. Lists are mutable.
+List contains items of different data types. The values stored in List are separated by comma (,) and enclosed within square brackets([]). We can store different types of data in a List. Lists are mutable and **ordered**.
 
 ```python
 number = [1, 2, 3, 4, 5]
 name = ['Amit', 'kabir', 'bhaskar', 2]
 print(number)
 print(name)
+```
+
+```python
+# mixed list
+a_list = ["hi", 5, 4.5]
 ```
 
 ## Tuple Literals
