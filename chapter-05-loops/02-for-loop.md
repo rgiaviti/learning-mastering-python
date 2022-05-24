@@ -3,9 +3,17 @@
 
 ## Example
 ```python
+# Note that range(6) is not the values of 0 to 6, but the values 0 to 5.
+for x in range(6):
+  print(x)
+```
+
+```python
 for x in range(0, 3):
     print("We're on time %d" % (x))
 ```
+
+The `range()` function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: `range(2, 30, 3)`:
 
 ### Nested Loops
 ```python
@@ -87,3 +95,4 @@ for x in my_range(1, 10, 0.5):
 
 ## Reference
 - https://wiki.python.org/moin/ForLoop
+- https://www.w3schools.com/python/python_for_loops.asp

@@ -52,3 +52,4 @@ else:
 
 ## Reference
 - https://www.programiz.com/python-programming/while-loop
+- https://www.w3schools.com/python/python_while_loops.asp

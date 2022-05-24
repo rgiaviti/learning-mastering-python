@@ -38,6 +38,13 @@ def quicksort():
     ...
 ```
 
+### Multi-line
+```python
+# comment line 1
+# comment line 2
+# comment line 3
+```
+
 ### Multi-line docstring
 ```python
 def increase(salary, percentage, rating):
@@ -50,3 +57,4 @@ def increase(salary, percentage, rating):
 
 ## References
 - https://www.pythontutorial.net/python-basics/python-comments/
+- https://www.w3schools.com/python/python_comments.asp

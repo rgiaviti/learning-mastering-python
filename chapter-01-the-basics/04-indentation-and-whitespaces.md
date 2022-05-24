@@ -1,5 +1,5 @@
 # Indentation and Whitespaces
-Indentation in Python is simply the spaces at the beginning of a code line. Indentation in other languages like c, c++, etc., is just for readability, but in Python, the indentation is an essential and mandatory concept that should be followed when writing a python code; otherwise, the python interpreter throws IndentationError.
+Indentation in Python is simply the spaces at the beginning of a code line. Indentation in other languages like c, c++, etc., is just for readability, but in Python, the indentation is an essential and mandatory concept that should be followed when writing a python code; otherwise, the python interpreter throws `IndentationError`.
 
 ## Example
 ```python
