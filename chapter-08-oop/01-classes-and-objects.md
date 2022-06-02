@@ -8,6 +8,20 @@ We can think of a class as a sketch (prototype) of a house. It contains all the 
 
 As many houses can be made from a house's blueprint, we can create many objects from a class. An object is also called an instance of a class and the process of creating this object is called **instantiation**.
 
+An object has two characteristics:
+
+- attributes
+- behavior
+
+Let's take an example:
+
+A parrot is an object, as it has the following properties:
+
+- name, age, color as attributes
+- singing, dancing as behavior
+
+The concept of OOP in Python focuses on creating reusable code. This concept is also known as DRY (Don't Repeat Yourself).
+
 ## Defining a class in Python
 
 Like function definitions begin with the `def` keyword in Python, class definitions begin with a class keyword.
@@ -72,6 +86,38 @@ print(harry.greet)
 # Calling object's greet() method
 # Output: Hello
 harry.greet()
+```
+
+## The Parrot Example
+
+```python
+class Parrot:
+
+    def fly(self):
+        print("Parrot can fly")
+    
+    def swim(self):
+        print("Parrot can't swim")
+
+class Penguin:
+
+    def fly(self):
+        print("Penguin can't fly")
+    
+    def swim(self):
+        print("Penguin can swim")
+
+# common interface
+def flying_test(bird):
+    bird.fly()
+
+#instantiate objects
+blu = Parrot()
+peggy = Penguin()
+
+# passing the object
+flying_test(blu)
+flying_test(peggy)
 ```
 
 # References
